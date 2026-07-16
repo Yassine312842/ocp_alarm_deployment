@@ -1,23 +1,53 @@
-# Production storage path. Not needed for local dev (DuckDB is embedded).
-# `docker compose up -d` then apply src/storage/schema.sql.
+version: "3.9"
+
 services:
   timescaledb:
     image: timescale/timescaledb:latest-pg16
+    container_name: ocp-timescaledb
+    restart: unless-stopped
+
     environment:
-      POSTGRES_USER: ocp
-      POSTGRES_PASSWORD: change_me
-      POSTGRES_DB: alarms
-    ports:
-      - "5432:5432"
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+
     volumes:
-      - tsdata:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+    networks:
+      - ocp-network
 
   grafana:
     image: grafana/grafana:latest
+    container_name: ocp-grafana
+    restart: unless-stopped
+
     ports:
       - "3000:3000"
+
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+
     depends_on:
-      - timescaledb
+      timescaledb:
+        condition: service_healthy
+
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+    networks:
+      - ocp-network
 
 volumes:
-  tsdata:
+  postgres_data:
+  grafana_data:
+
+networks:
+  ocp-network:
