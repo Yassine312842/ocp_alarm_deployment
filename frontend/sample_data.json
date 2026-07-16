@@ -1,0 +1,4043 @@
+{
+  "summary": {
+    "total_alarms": 99934,
+    "by_priority": {
+      "HIGH": 62215,
+      "LOW": 21099,
+      "MEDIUM": 14147,
+      "CRITICAL": 2473
+    },
+    "incidents": 2770,
+    "sources": 1604,
+    "bad_actor_share": 48.8,
+    "bad_actor_tag": "AAA-BMS-SSIF",
+    "flood_windows": 201,
+    "range": [
+      "2015-10-21 10:53:00",
+      "2024-06-26 00:13:00"
+    ],
+    "dataset": "preprocessed_trendedpointalarm.csv",
+    "kind": "real"
+  },
+  "kpis": {
+    "rate": {
+      "window_min": 10,
+      "avg_per_window": 0.22,
+      "avg_per_window_when_active": 1.47,
+      "peak_per_window": 472,
+      "active_windows": 67787,
+      "flood_windows": 201,
+      "flood_share_of_active_pct": 0.3,
+      "eemua_verdict": "within EEMUA target",
+      "target_per_window": 1.0
+    },
+    "priority_mix": [
+      {
+        "priority": "CRITICAL",
+        "alarm_count": 2473,
+        "pct": 2.5,
+        "target_pct": 1.0,
+        "delta_pct": 1.5
+      },
+      {
+        "priority": "HIGH",
+        "alarm_count": 62215,
+        "pct": 62.3,
+        "target_pct": 4.0,
+        "delta_pct": 58.3
+      },
+      {
+        "priority": "MEDIUM",
+        "alarm_count": 14147,
+        "pct": 14.2,
+        "target_pct": 15.0,
+        "delta_pct": -0.8
+      },
+      {
+        "priority": "LOW",
+        "alarm_count": 21099,
+        "pct": 21.1,
+        "target_pct": 80.0,
+        "delta_pct": -58.9
+      }
+    ],
+    "high_priority_share_pct": 64.8,
+    "high_priority_target_pct": 5.0,
+    "time_to_clear": {
+      "timed_episodes": 8135,
+      "untimed_episodes": 90005,
+      "median_min": 183.0,
+      "p90_min": 2959.8,
+      "over_24h_pct": 20.0,
+      "under_60s_pct": 13.7
+    },
+    "standing_alarm_count": 1254,
+    "standing_alarms": [
+      {
+        "tag": "1-JK1-JK1-00-H.03-AC-ACON-FCU-0168",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2015-10-21 10:55:00",
+        "days_standing": 3170.6,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-00-H.09-AC-ACON-FCU-0180",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2015-10-21 11:08:00",
+        "days_standing": 3170.5,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-00-C.03-AC-ACON-VAVU-0004",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2015-12-19 11:10:00",
+        "days_standing": 3111.5,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-00-C.03-AC-ACON-VAVU-0013",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2016-06-19 07:43:00",
+        "days_standing": 2928.7,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-01-C.12-AC-ACON-VAVU-0038",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2017-03-01 16:57:00",
+        "days_standing": 2673.3,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-01-C.12-AC-ACON-VAVU-0040",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2017-03-01 16:57:00",
+        "days_standing": 2673.3,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-01-C.12-AC-ACON-VAVU-0039",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2017-03-01 16:57:00",
+        "days_standing": 2673.3,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-01-1.01-AC-ACON-VAVU-0032",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2017-03-17 02:18:00",
+        "days_standing": 2657.9,
+        "description": ""
+      },
+      {
+        "tag": "0-JK1-JK1-B3-4.03-AC-ACON-FCU-0010",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2017-12-04 14:38:00",
+        "days_standing": 2395.4,
+        "description": ""
+      },
+      {
+        "tag": "0-JK1-JK1-B3-1.06-AC-ACON-FCU-0002",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2018-04-04 11:35:00",
+        "days_standing": 2274.5,
+        "description": ""
+      },
+      {
+        "tag": "UNKNOWN-ASSET",
+        "level": "TRIP",
+        "priority": "CRITICAL",
+        "start_ts": "2019-09-05 15:25:00",
+        "days_standing": 1755.4,
+        "description": "trip alarm"
+      },
+      {
+        "tag": "UNKNOWN-ASSET",
+        "level": "METER",
+        "priority": "MEDIUM",
+        "start_ts": "2019-09-17 02:59:00",
+        "days_standing": 1743.9,
+        "description": "consumption alarm"
+      },
+      {
+        "tag": "1-JK1-JK1-01-E.02-AC-ACON-VAVU-0049",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2019-09-21 13:49:00",
+        "days_standing": 1739.4,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-01-E.02-AC-ACON-VAVU-0047",
+        "level": "GENERAL",
+        "priority": "LOW",
+        "start_ts": "2019-09-21 14:54:00",
+        "days_standing": 1739.4,
+        "description": ""
+      },
+      {
+        "tag": "1-JK1-JK1-00-D.23-AC-ACON-VAVU-0020",
+        "level": "SPACE_TEMP",
+        "priority": "LOW",
+        "start_ts": "2019-10-13 15:19:00",
+        "days_standing": 1717.4,
+        "description": "vavj0900028 space temp alarm"
+      }
+    ],
+    "zone_load": [
+      {
+        "zone": "AAA",
+        "alarm_count": 48776,
+        "peak_per_window": 22,
+        "active_windows": 43503,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "JK1-00",
+        "alarm_count": 15233,
+        "peak_per_window": 13,
+        "active_windows": 6591,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "JK1-B2",
+        "alarm_count": 3297,
+        "peak_per_window": 11,
+        "active_windows": 2572,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "FGL-B1",
+        "alarm_count": 2787,
+        "peak_per_window": 8,
+        "active_windows": 1313,
+        "over_manageable_peak": false
+      },
+      {
+        "zone": "JK1-01",
+        "alarm_count": 2200,
+        "peak_per_window": 9,
+        "active_windows": 1170,
+        "over_manageable_peak": false
+      },
+      {
+        "zone": "FGL-03",
+        "alarm_count": 1548,
+        "peak_per_window": 4,
+        "active_windows": 1439,
+        "over_manageable_peak": false
+      },
+      {
+        "zone": "S-B2",
+        "alarm_count": 1407,
+        "peak_per_window": 46,
+        "active_windows": 489,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "I01-00",
+        "alarm_count": 1388,
+        "peak_per_window": 14,
+        "active_windows": 1051,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "T2-B1",
+        "alarm_count": 1198,
+        "peak_per_window": 49,
+        "active_windows": 356,
+        "over_manageable_peak": true
+      },
+      {
+        "zone": "JK1-B3",
+        "alarm_count": 1109,
+        "peak_per_window": 9,
+        "active_windows": 631,
+        "over_manageable_peak": false
+      }
+    ]
+  },
+  "tags_status": [
+    {
+      "tag": "AAA-BMS-SSIF",
+      "alarm_count": 48762,
+      "worst_priority": "HIGH",
+      "last_ts": "2023-09-20 13:39:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.01-AC-ACON-VAVU-0021",
+      "alarm_count": 2749,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-25 17:17:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.23-AC-ACON-VAVU-0020",
+      "alarm_count": 1939,
+      "worst_priority": "LOW",
+      "last_ts": "2020-07-26 00:28:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-C.27-AC-ACON-VAVU-0019",
+      "alarm_count": 1866,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-06 23:55:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0024",
+      "alarm_count": 1798,
+      "worst_priority": "LOW",
+      "last_ts": "2020-08-01 16:51:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0023",
+      "alarm_count": 1758,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-04 18:38:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.01-AC-ACON-VAVU-0022",
+      "alarm_count": 1573,
+      "worst_priority": "LOW",
+      "last_ts": "2020-07-24 14:35:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.17-AC-ACON-VAVU-0017",
+      "alarm_count": 1453,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-06 20:48:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B2-2.04-AC-ACON-AHU-0009",
+      "alarm_count": 1411,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-05-14 08:31:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.04-AC-ACON-VAVU-0012",
+      "alarm_count": 1371,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-20 05:49:00"
+    },
+    {
+      "tag": "1-JK1-JK1-01-E.02-AC-ACON-VAVU-0047",
+      "alarm_count": 1188,
+      "worst_priority": "LOW",
+      "last_ts": "2019-09-21 14:54:00"
+    },
+    {
+      "tag": "0-FGL-FGL-B1-1.03-AC-ACON-FCU-0056",
+      "alarm_count": 1069,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 23:56:00"
+    },
+    {
+      "tag": "1-JK1-JK1-01-E.02-AC-ACON-VAVU-0049",
+      "alarm_count": 1004,
+      "worst_priority": "LOW",
+      "last_ts": "2019-09-21 13:49:00"
+    },
+    {
+      "tag": "0-FGL-FGL-B1-2.02-AC-ACON-FCU-0036",
+      "alarm_count": 937,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 09:43:00"
+    },
+    {
+      "tag": "1-NU-U07-03-00.01-AC-EMS-CWSM-0008",
+      "alarm_count": 917,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-02 11:46:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B2-1.06-AC-ACON-FCU-0037",
+      "alarm_count": 892,
+      "worst_priority": "LOW",
+      "last_ts": "2020-11-14 13:42:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B3-2.09-AC-ACON-FCU-0024",
+      "alarm_count": 881,
+      "worst_priority": "LOW",
+      "last_ts": "2019-05-16 23:17:00"
+    },
+    {
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "alarm_count": 729,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:10:00"
+    },
+    {
+      "tag": "T05-GBS-SSIF",
+      "alarm_count": 719,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-01 11:41:00"
+    },
+    {
+      "tag": "1-NU-U07-10-00.01-AC-EMS-CWSM-0075",
+      "alarm_count": 718,
+      "worst_priority": "HIGH",
+      "last_ts": "2023-09-07 08:53:00"
+    },
+    {
+      "tag": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "alarm_count": 667,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:09:00"
+    },
+    {
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "alarm_count": 655,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:10:00"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.13-AC-ACON-VAVU-0015",
+      "alarm_count": 599,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-06 20:22:00"
+    },
+    {
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "alarm_count": 592,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:11:00"
+    },
+    {
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "alarm_count": 589,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:11:00"
+    },
+    {
+      "tag": "0-FGL-FGL-B3-2.01-AC-ACON-FCU-0156",
+      "alarm_count": 563,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-26 00:01:00"
+    },
+    {
+      "tag": "1-HHH-H03-04-C.01-FA-FDAD-MM-0003",
+      "alarm_count": 555,
+      "worst_priority": "CRITICAL",
+      "last_ts": "2024-05-19 13:07:00"
+    },
+    {
+      "tag": "1-NU-U07-06-00.01-AC-EMS-CWSM-0036",
+      "alarm_count": 551,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-03-11 12:36:00"
+    },
+    {
+      "tag": "0-FGL-FGL-B1-5.02-AC-ACON-FCU-0021",
+      "alarm_count": 518,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-23 00:06:00"
+    },
+    {
+      "tag": "0-AAA-AAA-B1-1.01-AC-ACON-FCU-0002",
+      "alarm_count": 511,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-25 23:46:00"
+    },
+    {
+      "tag": "T01-BMS-SSIF",
+      "alarm_count": 425,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-01 14:47:00"
+    },
+    {
+      "tag": "1-FGL-G03-03-A.19-AC-ACON-FCU-0029",
+      "alarm_count": 421,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-05-18 10:55:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B1-4.03-AC-ACON-MAHU-0002",
+      "alarm_count": 404,
+      "worst_priority": "LOW",
+      "last_ts": "2021-04-12 05:06:00"
+    },
+    {
+      "tag": "1-FGL-G03-03-A.19-AC-ACON-FCU-0028",
+      "alarm_count": 396,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-25 09:22:00"
+    },
+    {
+      "tag": "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+      "alarm_count": 384,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:12:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0004",
+      "alarm_count": 373,
+      "worst_priority": "LOW",
+      "last_ts": "2021-04-13 16:59:00"
+    },
+    {
+      "tag": "1-FGL-G03-03-A.10-AC-ACON-FCU-0027",
+      "alarm_count": 342,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-24 23:53:00"
+    },
+    {
+      "tag": "0-AAA-AAA-B3-6.06-AC-ACON-FCU-0098",
+      "alarm_count": 323,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 21:27:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003",
+      "alarm_count": 312,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2021-04-13 23:21:00"
+    },
+    {
+      "tag": "1-I01-I02-01-IA1.02-AC-ACON-ZOCD-0002",
+      "alarm_count": 285,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-12 17:05:00"
+    },
+    {
+      "tag": "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0003",
+      "alarm_count": 281,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:13:00"
+    },
+    {
+      "tag": "1-R-R02-04-03.16-EL-SMHS-FCVA-0096",
+      "alarm_count": 278,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-25 16:59:00"
+    },
+    {
+      "tag": "T08-SM-SSIF",
+      "alarm_count": 274,
+      "worst_priority": "CRITICAL",
+      "last_ts": "2024-06-09 13:49:00"
+    },
+    {
+      "tag": "UNKNOWN-ASSET",
+      "alarm_count": 268,
+      "worst_priority": "CRITICAL",
+      "last_ts": "2019-09-17 02:59:00"
+    },
+    {
+      "tag": "0-FGL-FGL-B1-1.01-AC-ACON-FCU-0050",
+      "alarm_count": 256,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-02-11 00:39:00"
+    },
+    {
+      "tag": "0-AAA-AAA-B2-5.02-AC-ACON-FCU-0053",
+      "alarm_count": 249,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:06:00"
+    },
+    {
+      "tag": "1-HHH-H03-04-C.01-FA-FDAD-MM-0007",
+      "alarm_count": 246,
+      "worst_priority": "CRITICAL",
+      "last_ts": "2024-06-25 15:19:00"
+    },
+    {
+      "tag": "0-T1-T01-B2-85.17-AC-ACON-FCU-0178",
+      "alarm_count": 236,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-04-17 17:57:00"
+    },
+    {
+      "tag": "1-R-R02-01-05.02-EL-SMHS-FCVA-0023",
+      "alarm_count": 231,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-25 23:03:00"
+    },
+    {
+      "tag": "1-ST-M-00-DC1.01-AC-SBCW-BECH-0001",
+      "alarm_count": 228,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-03-04 11:46:00"
+    },
+    {
+      "tag": "1-FGL-G03-03-A.28-AC-ACON-FCU-0032",
+      "alarm_count": 221,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:03:00"
+    },
+    {
+      "tag": "0-JK1-JK1-B3-1.01-AC-ACON-FCU-0001",
+      "alarm_count": 219,
+      "worst_priority": "LOW",
+      "last_ts": "2020-12-07 20:48:00"
+    },
+    {
+      "tag": "1-T2-T07-00-51.05-EL-VIIN-VIES-0018",
+      "alarm_count": 213,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 00:08:00"
+    },
+    {
+      "tag": "1-T2-T07-00-51.04-EL-VIIN-VIES-0017",
+      "alarm_count": 213,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 00:08:00"
+    },
+    {
+      "tag": "1-T2-T07-00-52.03-EL-VIIN-VIES-0016",
+      "alarm_count": 212,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 00:08:00"
+    },
+    {
+      "tag": "1-T2-T07-00-52.09-EL-VIIN-VIES-0015",
+      "alarm_count": 212,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 00:08:00"
+    },
+    {
+      "tag": "0-T2-T07-B2-51.05-EL-VIIN-VIES-0014",
+      "alarm_count": 205,
+      "worst_priority": "MEDIUM",
+      "last_ts": "2024-06-25 00:08:00"
+    },
+    {
+      "tag": "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0002",
+      "alarm_count": 185,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:13:00"
+    },
+    {
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0003",
+      "alarm_count": 184,
+      "worst_priority": "HIGH",
+      "last_ts": "2023-06-05 01:32:00"
+    },
+    {
+      "tag": "1-I01-I02-01-IA1.02-AC-ACON-ZOCD-0003",
+      "alarm_count": 184,
+      "worst_priority": "HIGH",
+      "last_ts": "2024-06-26 00:13:00"
+    }
+  ],
+  "bad_actors": [
+    {
+      "tag": "AAA-BMS-SSIF",
+      "alarm_count": 48762,
+      "pct": 48.8,
+      "cum_pct": 48.8,
+      "worst_priority": "HIGH",
+      "top_level": "OFFLINE"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.01-AC-ACON-VAVU-0021",
+      "alarm_count": 2749,
+      "pct": 2.8,
+      "cum_pct": 51.6,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.23-AC-ACON-VAVU-0020",
+      "alarm_count": 1939,
+      "pct": 1.9,
+      "cum_pct": 53.5,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-C.27-AC-ACON-VAVU-0019",
+      "alarm_count": 1866,
+      "pct": 1.9,
+      "cum_pct": 55.4,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0024",
+      "alarm_count": 1798,
+      "pct": 1.8,
+      "cum_pct": 57.2,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0023",
+      "alarm_count": 1758,
+      "pct": 1.8,
+      "cum_pct": 59.0,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.01-AC-ACON-VAVU-0022",
+      "alarm_count": 1573,
+      "pct": 1.6,
+      "cum_pct": 60.6,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.17-AC-ACON-VAVU-0017",
+      "alarm_count": 1453,
+      "pct": 1.5,
+      "cum_pct": 62.1,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    },
+    {
+      "tag": "0-JK1-JK1-B2-2.04-AC-ACON-AHU-0009",
+      "alarm_count": 1411,
+      "pct": 1.4,
+      "cum_pct": 63.5,
+      "worst_priority": "HIGH",
+      "top_level": "AIR_TEMP"
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.04-AC-ACON-VAVU-0012",
+      "alarm_count": 1371,
+      "pct": 1.4,
+      "cum_pct": 64.9,
+      "worst_priority": "LOW",
+      "top_level": "SPACE_TEMP"
+    }
+  ],
+  "chattering": [
+    {
+      "tag": "T01-BMS-SSIF",
+      "level": "OFFLINE",
+      "activations": 367,
+      "chattering_events": 181,
+      "chatter_pct": 49.3
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.23-AC-ACON-VAVU-0020",
+      "level": "SPACE_TEMP",
+      "activations": 1935,
+      "chattering_events": 140,
+      "chatter_pct": 7.2
+    },
+    {
+      "tag": "1-JK1-JK1-00-D.04-AC-ACON-VAVU-0012",
+      "level": "SPACE_TEMP",
+      "activations": 1370,
+      "chattering_events": 125,
+      "chatter_pct": 9.1
+    },
+    {
+      "tag": "AAA-BMS-SSIF",
+      "level": "OFFLINE",
+      "activations": 48760,
+      "chattering_events": 115,
+      "chatter_pct": 0.2
+    },
+    {
+      "tag": "1-JK1-JK1-00-C.27-AC-ACON-VAVU-0019",
+      "level": "SPACE_TEMP",
+      "activations": 1860,
+      "chattering_events": 105,
+      "chatter_pct": 5.6
+    },
+    {
+      "tag": "1-HHH-H03-04-C.01-FA-FDAD-MM-0007",
+      "level": "FIRE_SUPERVISORY",
+      "activations": 246,
+      "chattering_events": 104,
+      "chatter_pct": 42.3
+    },
+    {
+      "tag": "0-JK1-JK1-B2-1.06-AC-ACON-FCU-0037",
+      "level": "GENERAL",
+      "activations": 891,
+      "chattering_events": 88,
+      "chatter_pct": 9.9
+    },
+    {
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "activations": 300,
+      "chattering_events": 71,
+      "chatter_pct": 23.7
+    },
+    {
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "SETPOINT",
+      "activations": 289,
+      "chattering_events": 66,
+      "chatter_pct": 22.8
+    },
+    {
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "level": "SETPOINT",
+      "activations": 397,
+      "chattering_events": 63,
+      "chatter_pct": 15.9
+    },
+    {
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "level": "SETPOINT",
+      "activations": 350,
+      "chattering_events": 59,
+      "chatter_pct": 16.9
+    },
+    {
+      "tag": "T01-BMS-SSIF",
+      "level": "COMMS_FAULT",
+      "activations": 58,
+      "chattering_events": 56,
+      "chatter_pct": 96.6
+    },
+    {
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "TEMP_HIGH",
+      "activations": 305,
+      "chattering_events": 56,
+      "chatter_pct": 18.4
+    },
+    {
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "level": "TEMP_HIGH",
+      "activations": 305,
+      "chattering_events": 55,
+      "chatter_pct": 18.0
+    },
+    {
+      "tag": "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0023",
+      "level": "SPACE_TEMP",
+      "activations": 1747,
+      "chattering_events": 53,
+      "chatter_pct": 3.0
+    }
+  ],
+  "floods": [
+    {
+      "window_start": "2018-01-10 00:30:00",
+      "alarm_count": 16,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2018-04-02 10:50:00",
+      "alarm_count": 13,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2018-04-17 07:00:00",
+      "alarm_count": 12,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2018-04-21 03:20:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2018-10-28 20:00:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2018-11-08 22:20:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2019-01-15 20:40:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2019-01-22 22:40:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2019-02-03 19:40:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2019-08-19 12:20:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2020-10-25 11:50:00",
+      "alarm_count": 11,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2021-01-29 12:50:00",
+      "alarm_count": 21,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-29 13:00:00",
+      "alarm_count": 22,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-29 13:10:00",
+      "alarm_count": 20,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-29 13:20:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-29 13:30:00",
+      "alarm_count": 21,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-29 13:50:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 11:30:00",
+      "alarm_count": 16,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 11:50:00",
+      "alarm_count": 29,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:00:00",
+      "alarm_count": 30,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:10:00",
+      "alarm_count": 28,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:20:00",
+      "alarm_count": 30,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:30:00",
+      "alarm_count": 26,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:40:00",
+      "alarm_count": 26,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 12:50:00",
+      "alarm_count": 29,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 13:00:00",
+      "alarm_count": 27,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-01-30 13:10:00",
+      "alarm_count": 22,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2021-03-04 15:30:00",
+      "alarm_count": 52,
+      "top_priority": "LOW"
+    },
+    {
+      "window_start": "2021-06-06 14:00:00",
+      "alarm_count": 30,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2022-03-26 14:00:00",
+      "alarm_count": 16,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2022-05-21 16:40:00",
+      "alarm_count": 16,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2022-07-16 17:10:00",
+      "alarm_count": 11,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-18 03:20:00",
+      "alarm_count": 12,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-18 03:30:00",
+      "alarm_count": 11,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-23 06:10:00",
+      "alarm_count": 16,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-23 06:20:00",
+      "alarm_count": 19,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-23 06:30:00",
+      "alarm_count": 23,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-28 05:40:00",
+      "alarm_count": 24,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-07-28 05:50:00",
+      "alarm_count": 12,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2022-08-28 15:10:00",
+      "alarm_count": 17,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2022-08-28 17:00:00",
+      "alarm_count": 22,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2022-09-14 13:10:00",
+      "alarm_count": 23,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2022-09-18 22:20:00",
+      "alarm_count": 117,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2022-10-11 18:00:00",
+      "alarm_count": 15,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-02-12 16:30:00",
+      "alarm_count": 20,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-03-23 17:40:00",
+      "alarm_count": 13,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-06-17 20:00:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-03 14:20:00",
+      "alarm_count": 27,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-03 14:30:00",
+      "alarm_count": 24,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-13 16:40:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-13 17:10:00",
+      "alarm_count": 34,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-13 17:30:00",
+      "alarm_count": 21,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-16 19:20:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-17 06:20:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-09-24 10:40:00",
+      "alarm_count": 247,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 10:50:00",
+      "alarm_count": 23,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 11:00:00",
+      "alarm_count": 21,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 14:10:00",
+      "alarm_count": 24,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 14:20:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 14:40:00",
+      "alarm_count": 19,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 14:50:00",
+      "alarm_count": 22,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 15:00:00",
+      "alarm_count": 105,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-24 15:10:00",
+      "alarm_count": 472,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-25 08:00:00",
+      "alarm_count": 47,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-09-25 08:10:00",
+      "alarm_count": 55,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-10-03 07:40:00",
+      "alarm_count": 51,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-03 07:50:00",
+      "alarm_count": 24,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-04 07:40:00",
+      "alarm_count": 27,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-04 07:50:00",
+      "alarm_count": 48,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-05 08:50:00",
+      "alarm_count": 73,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-06 08:10:00",
+      "alarm_count": 53,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-06 08:20:00",
+      "alarm_count": 20,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-07 08:40:00",
+      "alarm_count": 14,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-07 08:50:00",
+      "alarm_count": 59,
+      "top_priority": "CRITICAL"
+    },
+    {
+      "window_start": "2023-10-20 15:50:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-10-23 03:00:00",
+      "alarm_count": 25,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-10-25 00:00:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-10-27 03:00:00",
+      "alarm_count": 21,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-10-29 00:00:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-10-30 03:00:00",
+      "alarm_count": 32,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-10-31 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-10-31 03:00:00",
+      "alarm_count": 23,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-10-31 03:10:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-01 00:00:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-01 03:00:00",
+      "alarm_count": 23,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-08 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-09 03:00:00",
+      "alarm_count": 17,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-09 23:50:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-10 03:00:00",
+      "alarm_count": 31,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-11 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-12 23:50:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-16 17:20:00",
+      "alarm_count": 19,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 17:50:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 18:00:00",
+      "alarm_count": 14,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 20:20:00",
+      "alarm_count": 17,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 20:30:00",
+      "alarm_count": 18,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 20:40:00",
+      "alarm_count": 15,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 20:50:00",
+      "alarm_count": 20,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-16 21:30:00",
+      "alarm_count": 47,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-11-17 00:00:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-21 00:00:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-27 23:50:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-29 23:50:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-11-30 23:50:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-12-07 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-12-09 00:00:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-12-11 03:00:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-12-11 03:10:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2023-12-19 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2023-12-30 23:50:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-01-01 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-01-04 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-01-13 00:00:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-01-28 16:50:00",
+      "alarm_count": 18,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-02-25 11:10:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-04-28 03:10:00",
+      "alarm_count": 23,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-04-30 03:00:00",
+      "alarm_count": 22,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-04-30 23:00:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-04 03:00:00",
+      "alarm_count": 17,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-04 03:10:00",
+      "alarm_count": 17,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-07 03:10:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-08 03:10:00",
+      "alarm_count": 19,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-10 03:00:00",
+      "alarm_count": 27,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 19:10:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 19:20:00",
+      "alarm_count": 58,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 19:30:00",
+      "alarm_count": 64,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 19:40:00",
+      "alarm_count": 43,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 19:50:00",
+      "alarm_count": 37,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-11 20:00:00",
+      "alarm_count": 21,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-13 03:00:00",
+      "alarm_count": 25,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-14 03:00:00",
+      "alarm_count": 16,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-19 03:10:00",
+      "alarm_count": 25,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-20 16:20:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 16:30:00",
+      "alarm_count": 34,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 16:40:00",
+      "alarm_count": 27,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 16:50:00",
+      "alarm_count": 26,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 17:00:00",
+      "alarm_count": 25,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 17:10:00",
+      "alarm_count": 32,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-20 17:20:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-26 03:00:00",
+      "alarm_count": 19,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-26 10:10:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-26 23:00:00",
+      "alarm_count": 20,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-27 03:00:00",
+      "alarm_count": 30,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-28 03:00:00",
+      "alarm_count": 18,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-28 09:20:00",
+      "alarm_count": 17,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-05-28 23:00:00",
+      "alarm_count": 15,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-29 03:00:00",
+      "alarm_count": 48,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-29 03:10:00",
+      "alarm_count": 47,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-30 03:00:00",
+      "alarm_count": 23,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-30 03:10:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-31 03:10:00",
+      "alarm_count": 22,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-05-31 13:50:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-01 14:40:00",
+      "alarm_count": 21,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-06-02 03:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-02 03:10:00",
+      "alarm_count": 34,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-02 23:00:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-03 03:10:00",
+      "alarm_count": 12,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-03 23:00:00",
+      "alarm_count": 25,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-04 03:00:00",
+      "alarm_count": 29,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-04 03:10:00",
+      "alarm_count": 59,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-05 03:00:00",
+      "alarm_count": 36,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-05 23:00:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-06 03:00:00",
+      "alarm_count": 27,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-06 03:10:00",
+      "alarm_count": 14,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-07 03:00:00",
+      "alarm_count": 22,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-07 03:10:00",
+      "alarm_count": 32,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-08 03:00:00",
+      "alarm_count": 31,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-08 03:10:00",
+      "alarm_count": 28,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-08 23:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-09 03:00:00",
+      "alarm_count": 44,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-09 03:10:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-10 03:00:00",
+      "alarm_count": 47,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-10 03:10:00",
+      "alarm_count": 52,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-11 03:10:00",
+      "alarm_count": 24,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-12 03:00:00",
+      "alarm_count": 41,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-12 03:10:00",
+      "alarm_count": 15,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-13 03:00:00",
+      "alarm_count": 53,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-13 03:10:00",
+      "alarm_count": 64,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-14 00:10:00",
+      "alarm_count": 11,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-06-14 03:00:00",
+      "alarm_count": 38,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-14 23:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-15 00:00:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-06-15 03:00:00",
+      "alarm_count": 32,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-16 03:10:00",
+      "alarm_count": 17,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-17 03:00:00",
+      "alarm_count": 43,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-17 03:10:00",
+      "alarm_count": 17,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-17 03:30:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-18 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-19 00:00:00",
+      "alarm_count": 13,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-06-19 03:00:00",
+      "alarm_count": 29,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-19 03:10:00",
+      "alarm_count": 43,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-20 00:00:00",
+      "alarm_count": 23,
+      "top_priority": "HIGH"
+    },
+    {
+      "window_start": "2024-06-20 03:00:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-22 00:00:00",
+      "alarm_count": 11,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-23 03:00:00",
+      "alarm_count": 22,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-23 03:10:00",
+      "alarm_count": 27,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-24 00:00:00",
+      "alarm_count": 16,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-24 03:00:00",
+      "alarm_count": 51,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-24 03:10:00",
+      "alarm_count": 30,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-25 00:00:00",
+      "alarm_count": 20,
+      "top_priority": "MEDIUM"
+    },
+    {
+      "window_start": "2024-06-26 00:10:00",
+      "alarm_count": 13,
+      "top_priority": "MEDIUM"
+    }
+  ],
+  "co_occurrence": [
+    {
+      "tag_a": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "co_occurrences": 5859
+    },
+    {
+      "tag_a": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "tag_b": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "co_occurrences": 5608
+    },
+    {
+      "tag_a": "0-ST-M-N1-17-AC-ACON-CRAC-0002",
+      "tag_b": "0-ST-M-N1-17-AC-ACON-CRAC-0004",
+      "co_occurrences": 2943
+    },
+    {
+      "tag_a": "0-ST-M-N1-17-AC-ACON-CRAC-0003",
+      "tag_b": "0-ST-M-N1-17-AC-ACON-CRAC-0004",
+      "co_occurrences": 2823
+    },
+    {
+      "tag_a": "0-ST-M-N1-17-AC-ACON-CRAC-0002",
+      "tag_b": "0-ST-M-N1-17-AC-ACON-CRAC-0003",
+      "co_occurrences": 2608
+    },
+    {
+      "tag_a": "1-HHH-H03-04-C.01-FA-FDAD-MM-0003",
+      "tag_b": "AAA-BMS-SSIF",
+      "co_occurrences": 1518
+    },
+    {
+      "tag_a": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "tag_b": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "co_occurrences": 1364
+    },
+    {
+      "tag_a": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "co_occurrences": 1338
+    },
+    {
+      "tag_a": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "tag_b": "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+      "co_occurrences": 1312
+    },
+    {
+      "tag_a": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "tag_b": "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+      "co_occurrences": 1285
+    },
+    {
+      "tag_a": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "tag_b": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "co_occurrences": 1278
+    },
+    {
+      "tag_a": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "co_occurrences": 1250
+    },
+    {
+      "tag_a": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "co_occurrences": 1247
+    },
+    {
+      "tag_a": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "co_occurrences": 1229
+    },
+    {
+      "tag_a": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "co_occurrences": 1200
+    },
+    {
+      "tag_a": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "tag_b": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "co_occurrences": 1174
+    },
+    {
+      "tag_a": "0-FGL-FGL-B1-1.03-AC-ACON-FCU-0056",
+      "tag_b": "0-FGL-FGL-B1-2.02-AC-ACON-FCU-0036",
+      "co_occurrences": 1042
+    },
+    {
+      "tag_a": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "tag_b": "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0003",
+      "co_occurrences": 737
+    },
+    {
+      "tag_a": "0-FGL-FGL-B1-1.03-AC-ACON-FCU-0056",
+      "tag_b": "0-FGL-FGL-B3-2.01-AC-ACON-FCU-0156",
+      "co_occurrences": 732
+    },
+    {
+      "tag_a": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "tag_b": "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0003",
+      "co_occurrences": 688
+    }
+  ],
+  "sequences": [
+    {
+      "sequence": "1-HHH-H03-04-C.01-FA-FDAD-MM-0003:FIRE_SUPERVISORY -> AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-04-C.01-FA-FDAD-MM-0003:FIRE_SUPERVISORY -> AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-04-C.01-FA-FDAD-MM-0003:FIRE_SUPERVISORY",
+      "occurrences": 17
+    },
+    {
+      "sequence": "1-HHH-H03-00-EL.01-FA-FDAD-SD-0005:FIRE_SUPERVISORY -> 1-HHH-H03-03-B.08-FA-FDAD-SD-0015:FIRE_SUPERVISORY -> 1-HHH-H03-04-EL.03-FA-FDAD-SD-0009:FIRE_SUPERVISORY",
+      "occurrences": 12
+    },
+    {
+      "sequence": "AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-03-B.08-FA-FDAD-SD-0015:FIRE_SUPERVISORY -> 1-HHH-H03-00-EL.01-FA-FDAD-SD-0005:FIRE_SUPERVISORY -> 1-HHH-H03-04-EL.03-FA-FDAD-SD-0009:FIRE_SUPERVISORY",
+      "occurrences": 5
+    },
+    {
+      "sequence": "R02-GBS-SSIF:OFFLINE -> R01-FAS-SSIF:FIRE_SUPERVISORY",
+      "occurrences": 5
+    },
+    {
+      "sequence": "1-HHH-H03-04-C.01-FA-FDAD-MM-0007:FIRE_SUPERVISORY -> AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-04-C.01-FA-FDAD-MM-0007:FIRE_SUPERVISORY -> AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-04-C.01-FA-FDAD-MM-0007:FIRE_SUPERVISORY",
+      "occurrences": 5
+    },
+    {
+      "sequence": "AAA-BMS-SSIF:OFFLINE -> 1-R-R01-00-01.01-SG-GMCS-GAMA-0003:GAS",
+      "occurrences": 5
+    },
+    {
+      "sequence": "AAA-BMS-SSIF:OFFLINE -> 1-HHH-H03-04-C.01-FA-FDAD-MM-0007:FIRE_SUPERVISORY",
+      "occurrences": 4
+    },
+    {
+      "sequence": "AAA-BMS-SSIF:OFFLINE -> 1-T2-T07-06-05.04-SG-GMCS-GAMA-0036:GAS",
+      "occurrences": 4
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "INC-01268",
+      "start_ts": "2023-09-24 10:46:00",
+      "end_ts": "2023-09-24 15:15:00",
+      "alarm_count": 1046,
+      "tags": 1014,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-03",
+      "duration_min": 269.0
+    },
+    {
+      "incident_id": "INC-00027",
+      "start_ts": "2021-01-30 11:16:00",
+      "end_ts": "2021-01-30 13:23:00",
+      "alarm_count": 272,
+      "tags": 4,
+      "top_priority": "HIGH",
+      "zone": "ST-N1",
+      "duration_min": 127.0
+    },
+    {
+      "incident_id": "INC-02475",
+      "start_ts": "2024-05-11 18:46:00",
+      "end_ts": "2024-05-11 20:28:00",
+      "alarm_count": 259,
+      "tags": 20,
+      "top_priority": "HIGH",
+      "zone": "I01-BM",
+      "duration_min": 102.0
+    },
+    {
+      "incident_id": "INC-02522",
+      "start_ts": "2024-05-20 16:12:00",
+      "end_ts": "2024-05-20 17:22:00",
+      "alarm_count": 169,
+      "tags": 22,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 70.0
+    },
+    {
+      "incident_id": "INC-01593",
+      "start_ts": "2023-11-16 20:26:00",
+      "end_ts": "2023-11-16 22:29:00",
+      "alarm_count": 140,
+      "tags": 10,
+      "top_priority": "HIGH",
+      "zone": "S-B2",
+      "duration_min": 123.0
+    },
+    {
+      "incident_id": "INC-00424",
+      "start_ts": "2022-07-03 06:51:00",
+      "end_ts": "2022-07-03 17:01:00",
+      "alarm_count": 140,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 610.0
+    },
+    {
+      "incident_id": "INC-00026",
+      "start_ts": "2021-01-29 12:53:00",
+      "end_ts": "2021-01-29 14:17:00",
+      "alarm_count": 134,
+      "tags": 3,
+      "top_priority": "HIGH",
+      "zone": "ST-N1",
+      "duration_min": 84.0
+    },
+    {
+      "incident_id": "INC-02670",
+      "start_ts": "2024-06-13 03:01:00",
+      "end_ts": "2024-06-13 03:38:00",
+      "alarm_count": 120,
+      "tags": 15,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 37.0
+    },
+    {
+      "incident_id": "INC-00486",
+      "start_ts": "2022-09-18 22:11:00",
+      "end_ts": "2022-09-18 22:29:00",
+      "alarm_count": 118,
+      "tags": 3,
+      "top_priority": "HIGH",
+      "zone": "AAA",
+      "duration_min": 18.0
+    },
+    {
+      "incident_id": "INC-02573",
+      "start_ts": "2024-05-29 02:47:00",
+      "end_ts": "2024-05-29 03:55:00",
+      "alarm_count": 107,
+      "tags": 15,
+      "top_priority": "HIGH",
+      "zone": "I01-02",
+      "duration_min": 68.0
+    },
+    {
+      "incident_id": "INC-01270",
+      "start_ts": "2023-09-25 08:05:00",
+      "end_ts": "2023-09-25 08:19:00",
+      "alarm_count": 102,
+      "tags": 102,
+      "top_priority": "HIGH",
+      "zone": "R-05",
+      "duration_min": 14.0
+    },
+    {
+      "incident_id": "INC-02644",
+      "start_ts": "2024-06-10 02:45:00",
+      "end_ts": "2024-06-10 03:16:00",
+      "alarm_count": 102,
+      "tags": 13,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 31.0
+    },
+    {
+      "incident_id": "INC-02608",
+      "start_ts": "2024-06-04 03:02:00",
+      "end_ts": "2024-06-04 03:34:00",
+      "alarm_count": 94,
+      "tags": 16,
+      "top_priority": "HIGH",
+      "zone": "FGL-03",
+      "duration_min": 32.0
+    },
+    {
+      "incident_id": "INC-00171",
+      "start_ts": "2022-03-13 09:04:00",
+      "end_ts": "2022-03-13 20:40:00",
+      "alarm_count": 91,
+      "tags": 5,
+      "top_priority": "CRITICAL",
+      "zone": "R-03",
+      "duration_min": 696.0
+    },
+    {
+      "incident_id": "INC-00172",
+      "start_ts": "2022-03-13 21:59:00",
+      "end_ts": "2022-03-14 08:36:00",
+      "alarm_count": 87,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "R-02",
+      "duration_min": 637.0
+    },
+    {
+      "incident_id": "INC-02753",
+      "start_ts": "2024-06-24 03:01:00",
+      "end_ts": "2024-06-24 03:25:00",
+      "alarm_count": 85,
+      "tags": 11,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 24.0
+    },
+    {
+      "incident_id": "INC-01157",
+      "start_ts": "2023-09-13 16:45:00",
+      "end_ts": "2023-09-13 18:10:00",
+      "alarm_count": 82,
+      "tags": 82,
+      "top_priority": "HIGH",
+      "zone": "AAA-B3",
+      "duration_min": 85.0
+    },
+    {
+      "incident_id": "INC-00450",
+      "start_ts": "2022-07-23 04:54:00",
+      "end_ts": "2022-07-23 07:22:00",
+      "alarm_count": 81,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 148.0
+    },
+    {
+      "incident_id": "INC-02705",
+      "start_ts": "2024-06-17 02:51:00",
+      "end_ts": "2024-06-17 03:39:00",
+      "alarm_count": 78,
+      "tags": 15,
+      "top_priority": "HIGH",
+      "zone": "I01-01",
+      "duration_min": 48.0
+    },
+    {
+      "incident_id": "INC-01591",
+      "start_ts": "2023-11-16 16:42:00",
+      "end_ts": "2023-11-16 18:27:00",
+      "alarm_count": 78,
+      "tags": 15,
+      "top_priority": "HIGH",
+      "zone": "AAA-B2",
+      "duration_min": 105.0
+    },
+    {
+      "incident_id": "INC-00413",
+      "start_ts": "2022-06-27 11:27:00",
+      "end_ts": "2022-06-27 17:58:00",
+      "alarm_count": 76,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 391.0
+    },
+    {
+      "incident_id": "INC-02714",
+      "start_ts": "2024-06-19 03:03:00",
+      "end_ts": "2024-06-19 03:22:00",
+      "alarm_count": 76,
+      "tags": 11,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 19.0
+    },
+    {
+      "incident_id": "INC-01283",
+      "start_ts": "2023-10-03 07:28:00",
+      "end_ts": "2023-10-03 07:53:00",
+      "alarm_count": 76,
+      "tags": 76,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-02",
+      "duration_min": 25.0
+    },
+    {
+      "incident_id": "INC-01286",
+      "start_ts": "2023-10-04 07:45:00",
+      "end_ts": "2023-10-04 07:53:00",
+      "alarm_count": 75,
+      "tags": 75,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-02",
+      "duration_min": 8.0
+    },
+    {
+      "incident_id": "INC-01287",
+      "start_ts": "2023-10-05 08:54:00",
+      "end_ts": "2023-10-05 08:58:00",
+      "alarm_count": 73,
+      "tags": 73,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-03",
+      "duration_min": 4.0
+    },
+    {
+      "incident_id": "INC-01295",
+      "start_ts": "2023-10-07 08:46:00",
+      "end_ts": "2023-10-07 08:53:00",
+      "alarm_count": 73,
+      "tags": 73,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-02",
+      "duration_min": 7.0
+    },
+    {
+      "incident_id": "INC-01292",
+      "start_ts": "2023-10-06 08:12:00",
+      "end_ts": "2023-10-06 08:21:00",
+      "alarm_count": 73,
+      "tags": 73,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-02",
+      "duration_min": 9.0
+    },
+    {
+      "incident_id": "INC-00189",
+      "start_ts": "2022-03-28 09:34:00",
+      "end_ts": "2022-03-28 14:14:00",
+      "alarm_count": 69,
+      "tags": 4,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 280.0
+    },
+    {
+      "incident_id": "INC-02252",
+      "start_ts": "2024-02-25 09:00:00",
+      "end_ts": "2024-02-25 11:30:00",
+      "alarm_count": 68,
+      "tags": 7,
+      "top_priority": "CRITICAL",
+      "zone": "T1-B3",
+      "duration_min": 150.0
+    },
+    {
+      "incident_id": "INC-02632",
+      "start_ts": "2024-06-08 03:01:00",
+      "end_ts": "2024-06-08 03:24:00",
+      "alarm_count": 68,
+      "tags": 15,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 23.0
+    },
+    {
+      "incident_id": "INC-02659",
+      "start_ts": "2024-06-12 03:01:00",
+      "end_ts": "2024-06-12 03:39:00",
+      "alarm_count": 67,
+      "tags": 9,
+      "top_priority": "HIGH",
+      "zone": "AAA-B2",
+      "duration_min": 38.0
+    },
+    {
+      "incident_id": "INC-02638",
+      "start_ts": "2024-06-09 03:02:00",
+      "end_ts": "2024-06-09 03:28:00",
+      "alarm_count": 64,
+      "tags": 14,
+      "top_priority": "HIGH",
+      "zone": "AAA-B2",
+      "duration_min": 26.0
+    },
+    {
+      "incident_id": "INC-00453",
+      "start_ts": "2022-07-28 05:32:00",
+      "end_ts": "2022-07-28 08:13:00",
+      "alarm_count": 60,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 161.0
+    },
+    {
+      "incident_id": "INC-02626",
+      "start_ts": "2024-06-07 03:02:00",
+      "end_ts": "2024-06-07 03:22:00",
+      "alarm_count": 59,
+      "tags": 11,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 20.0
+    },
+    {
+      "incident_id": "INC-00015",
+      "start_ts": "2018-08-29 13:17:00",
+      "end_ts": "2018-08-29 15:48:00",
+      "alarm_count": 59,
+      "tags": 3,
+      "top_priority": "CRITICAL",
+      "zone": "UNKNOWN",
+      "duration_min": 151.0
+    },
+    {
+      "incident_id": "INC-02744",
+      "start_ts": "2024-06-23 03:08:00",
+      "end_ts": "2024-06-23 03:43:00",
+      "alarm_count": 57,
+      "tags": 11,
+      "top_priority": "HIGH",
+      "zone": "AAA-B2",
+      "duration_min": 35.0
+    },
+    {
+      "incident_id": "INC-01155",
+      "start_ts": "2023-09-03 14:21:00",
+      "end_ts": "2023-09-03 14:47:00",
+      "alarm_count": 56,
+      "tags": 6,
+      "top_priority": "CRITICAL",
+      "zone": "T08",
+      "duration_min": 26.0
+    },
+    {
+      "incident_id": "INC-01039",
+      "start_ts": "2023-06-13 02:54:00",
+      "end_ts": "2023-06-13 07:13:00",
+      "alarm_count": 53,
+      "tags": 6,
+      "top_priority": "HIGH",
+      "zone": "T05",
+      "duration_min": 259.0
+    },
+    {
+      "incident_id": "INC-00029",
+      "start_ts": "2021-03-04 15:30:00",
+      "end_ts": "2021-03-04 15:32:00",
+      "alarm_count": 52,
+      "tags": 26,
+      "top_priority": "HIGH",
+      "zone": "R01",
+      "duration_min": 2.0
+    },
+    {
+      "incident_id": "INC-00232",
+      "start_ts": "2022-04-09 05:27:00",
+      "end_ts": "2022-04-09 11:28:00",
+      "alarm_count": 50,
+      "tags": 3,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 361.0
+    },
+    {
+      "incident_id": "INC-02684",
+      "start_ts": "2024-06-14 03:03:00",
+      "end_ts": "2024-06-14 03:21:00",
+      "alarm_count": 49,
+      "tags": 9,
+      "top_priority": "HIGH",
+      "zone": "I01-02",
+      "duration_min": 18.0
+    },
+    {
+      "incident_id": "INC-02688",
+      "start_ts": "2024-06-15 03:02:00",
+      "end_ts": "2024-06-15 03:22:00",
+      "alarm_count": 47,
+      "tags": 8,
+      "top_priority": "HIGH",
+      "zone": "I01-02",
+      "duration_min": 20.0
+    },
+    {
+      "incident_id": "INC-02614",
+      "start_ts": "2024-06-05 03:00:00",
+      "end_ts": "2024-06-05 03:20:00",
+      "alarm_count": 47,
+      "tags": 14,
+      "top_priority": "HIGH",
+      "zone": "I01-02",
+      "duration_min": 20.0
+    },
+    {
+      "incident_id": "INC-02619",
+      "start_ts": "2024-06-06 02:54:00",
+      "end_ts": "2024-06-06 03:14:00",
+      "alarm_count": 45,
+      "tags": 16,
+      "top_priority": "HIGH",
+      "zone": "I01-01",
+      "duration_min": 20.0
+    },
+    {
+      "incident_id": "INC-02596",
+      "start_ts": "2024-06-02 03:05:00",
+      "end_ts": "2024-06-02 03:14:00",
+      "alarm_count": 45,
+      "tags": 9,
+      "top_priority": "HIGH",
+      "zone": "I01-00",
+      "duration_min": 9.0
+    },
+    {
+      "incident_id": "INC-00377",
+      "start_ts": "2022-06-10 09:41:00",
+      "end_ts": "2022-06-10 14:02:00",
+      "alarm_count": 44,
+      "tags": 3,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 261.0
+    },
+    {
+      "incident_id": "INC-01937",
+      "start_ts": "2024-01-03 07:52:00",
+      "end_ts": "2024-01-03 10:34:00",
+      "alarm_count": 43,
+      "tags": 17,
+      "top_priority": "CRITICAL",
+      "zone": "Y-00",
+      "duration_min": 162.0
+    },
+    {
+      "incident_id": "INC-00292",
+      "start_ts": "2022-04-26 06:22:00",
+      "end_ts": "2022-04-26 11:54:00",
+      "alarm_count": 43,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 332.0
+    },
+    {
+      "incident_id": "INC-00405",
+      "start_ts": "2022-06-20 02:07:00",
+      "end_ts": "2022-06-20 08:23:00",
+      "alarm_count": 43,
+      "tags": 2,
+      "top_priority": "HIGH",
+      "zone": "AAA",
+      "duration_min": 376.0
+    },
+    {
+      "incident_id": "INC-00444",
+      "start_ts": "2022-07-18 02:01:00",
+      "end_ts": "2022-07-18 04:02:00",
+      "alarm_count": 42,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 121.0
+    },
+    {
+      "incident_id": "INC-01060",
+      "start_ts": "2023-06-14 07:57:00",
+      "end_ts": "2023-06-14 11:14:00",
+      "alarm_count": 42,
+      "tags": 6,
+      "top_priority": "HIGH",
+      "zone": "NU-03",
+      "duration_min": 197.0
+    },
+    {
+      "incident_id": "INC-00162",
+      "start_ts": "2022-03-08 07:25:00",
+      "end_ts": "2022-03-08 12:06:00",
+      "alarm_count": 40,
+      "tags": 6,
+      "top_priority": "CRITICAL",
+      "zone": "R-03",
+      "duration_min": 281.0
+    },
+    {
+      "incident_id": "INC-00388",
+      "start_ts": "2022-06-11 13:23:00",
+      "end_ts": "2022-06-11 16:36:00",
+      "alarm_count": 40,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 193.0
+    },
+    {
+      "incident_id": "INC-01536",
+      "start_ts": "2023-11-10 02:53:00",
+      "end_ts": "2023-11-10 03:29:00",
+      "alarm_count": 39,
+      "tags": 7,
+      "top_priority": "HIGH",
+      "zone": "S-B2",
+      "duration_min": 36.0
+    },
+    {
+      "incident_id": "INC-00441",
+      "start_ts": "2022-07-16 15:58:00",
+      "end_ts": "2022-07-16 18:12:00",
+      "alarm_count": 38,
+      "tags": 14,
+      "top_priority": "CRITICAL",
+      "zone": "R-00",
+      "duration_min": 134.0
+    },
+    {
+      "incident_id": "INC-01435",
+      "start_ts": "2023-10-31 03:04:00",
+      "end_ts": "2023-10-31 03:35:00",
+      "alarm_count": 38,
+      "tags": 5,
+      "top_priority": "CRITICAL",
+      "zone": "R01",
+      "duration_min": 31.0
+    },
+    {
+      "incident_id": "INC-00342",
+      "start_ts": "2022-05-21 16:40:00",
+      "end_ts": "2022-05-21 20:15:00",
+      "alarm_count": 38,
+      "tags": 16,
+      "top_priority": "HIGH",
+      "zone": "AAA",
+      "duration_min": 215.0
+    },
+    {
+      "incident_id": "INC-00095",
+      "start_ts": "2021-11-08 13:12:00",
+      "end_ts": "2021-11-08 17:11:00",
+      "alarm_count": 37,
+      "tags": 8,
+      "top_priority": "CRITICAL",
+      "zone": "R08",
+      "duration_min": 239.0
+    },
+    {
+      "incident_id": "INC-00319",
+      "start_ts": "2022-05-10 08:54:00",
+      "end_ts": "2022-05-10 14:36:00",
+      "alarm_count": 37,
+      "tags": 2,
+      "top_priority": "CRITICAL",
+      "zone": "HHH-04",
+      "duration_min": 342.0
+    },
+    {
+      "incident_id": "INC-00478",
+      "start_ts": "2022-09-14 13:10:00",
+      "end_ts": "2022-09-14 15:01:00",
+      "alarm_count": 37,
+      "tags": 4,
+      "top_priority": "HIGH",
+      "zone": "AAA",
+      "duration_min": 111.0
+    }
+  ],
+  "root_cause": [
+    {
+      "incident_id": "INC-00026",
+      "rank": 1,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0004",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-29 12:53:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.133,
+      "confidence": 0.497,
+      "explanation": "fired first; opens 13% of the 15 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00026",
+      "rank": 2,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0002",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-29 12:54:00",
+      "lead_min": 1.0,
+      "initiation_rate": 0.0,
+      "confidence": 0.238,
+      "explanation": "fired 1 min into the incident; opens 0% of the 14 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00026",
+      "rank": 3,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0003",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-29 12:55:00",
+      "lead_min": 2.0,
+      "initiation_rate": 0.059,
+      "confidence": 0.061,
+      "explanation": "fired 2 min into the incident; opens 6% of the 17 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00027",
+      "rank": 1,
+      "tag": "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003",
+      "level": "AIR_TEMP",
+      "priority": "LOW",
+      "first_ts": "2021-01-30 11:16:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.5,
+      "confidence": 0.615,
+      "explanation": "fired first; opens 50% of the 4 incidents it appears in",
+      "hint": "AHU/MAU discharge temperature off target \u2014 coil, valve or sensor"
+    },
+    {
+      "incident_id": "INC-00027",
+      "rank": 2,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0003",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-30 11:27:00",
+      "lead_min": 11.0,
+      "initiation_rate": 0.059,
+      "confidence": 0.167,
+      "explanation": "fired 11 min into the incident; opens 6% of the 17 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00027",
+      "rank": 3,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0004",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-30 11:29:00",
+      "lead_min": 13.0,
+      "initiation_rate": 0.133,
+      "confidence": 0.15,
+      "explanation": "fired 13 min into the incident; opens 13% of the 15 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00027",
+      "rank": 4,
+      "tag": "0-ST-M-N1-17-AC-ACON-CRAC-0002",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2021-01-30 11:31:00",
+      "lead_min": 15.0,
+      "initiation_rate": 0.0,
+      "confidence": 0.038,
+      "explanation": "fired 15 min into the incident; opens 0% of the 14 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-00424",
+      "rank": 1,
+      "tag": "AAA-BMS-SSIF",
+      "level": "OFFLINE",
+      "priority": "HIGH",
+      "first_ts": "2022-07-03 06:51:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.809,
+      "confidence": 0.882,
+      "explanation": "fired first; opens 81% of the 638 incidents it appears in",
+      "hint": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk"
+    },
+    {
+      "incident_id": "INC-00424",
+      "rank": 2,
+      "tag": "1-HHH-H03-04-C.01-FA-FDAD-MM-0003",
+      "level": "FIRE_SUPERVISORY",
+      "priority": "CRITICAL",
+      "first_ts": "2022-07-03 08:21:00",
+      "lead_min": 90.0,
+      "initiation_rate": 0.117,
+      "confidence": 0.072,
+      "explanation": "fired 90 min into the incident; opens 12% of the 180 incidents it appears in",
+      "hint": "Fire-system supervisory / trouble condition"
+    },
+    {
+      "incident_id": "INC-00486",
+      "rank": 1,
+      "tag": "AAA-BMS-SSIF",
+      "level": "OFFLINE",
+      "priority": "HIGH",
+      "first_ts": "2022-09-18 22:11:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.809,
+      "confidence": 0.882,
+      "explanation": "fired first; opens 81% of the 638 incidents it appears in",
+      "hint": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk"
+    },
+    {
+      "incident_id": "INC-00486",
+      "rank": 2,
+      "tag": "T01-BMS-SSIF",
+      "level": "COMMS_FAULT",
+      "priority": "HIGH",
+      "first_ts": "2022-09-18 22:26:00",
+      "lead_min": 15.0,
+      "initiation_rate": 0.286,
+      "confidence": 0.236,
+      "explanation": "fired 15 min into the incident; opens 29% of the 63 incidents it appears in",
+      "hint": "Field-bus / device communication error"
+    },
+    {
+      "incident_id": "INC-00486",
+      "rank": 3,
+      "tag": "0-T2-T07-B1-94.04-EL-VIIN-CP3P-0001",
+      "level": "OFFLINE",
+      "priority": "MEDIUM",
+      "first_ts": "2022-09-18 22:29:00",
+      "lead_min": 18.0,
+      "initiation_rate": 0.2,
+      "confidence": 0.133,
+      "explanation": "fired 18 min into the incident; opens 20% of the 5 incidents it appears in",
+      "hint": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 1,
+      "tag": "0-T2-T07-B2-95.07-AC-ACON-FCU-0399",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:47:00",
+      "lead_min": 1.0,
+      "initiation_rate": 0.625,
+      "confidence": 0.686,
+      "explanation": "fired 1 min into the incident; opens 62% of the 8 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 2,
+      "tag": "1-R-R06-01-03.03-EL-SMHS-FCVA-0011",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.676,
+      "explanation": "fired first; opens 100% of the 2 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 3,
+      "tag": "0-I02-I02-B1-4.06-AC-ACON-FCU-0020",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 4,
+      "tag": "0-I02-I02-B1-4.19-AC-ACON-FCU-0030",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 5,
+      "tag": "0-I02-I02-B1-5.02-AC-ACON-FCU-0002",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01268",
+      "rank": 6,
+      "tag": "0-I02-I02-B2-3.01-AC-ACON-FCU-0006",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-24 10:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 1,
+      "tag": "1-R-R06-01-03.03-EL-SMHS-FCVA-0011",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.676,
+      "explanation": "fired first; opens 100% of the 2 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 2,
+      "tag": "1-NU-U07-05-08.02-AC-ACON-FCU-0087",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 3,
+      "tag": "1-NU-U07-06-01.12-AC-ACON-FCU-0136",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 4,
+      "tag": "1-NU-U07-09-07.02-AC-ACON-FCU-0229",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 5,
+      "tag": "1-R-R06-01-04.04-EL-SMHS-FCVA-0019",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-01270",
+      "rank": 6,
+      "tag": "1-R-R06-03-01.13-EL-SMHS-FCVA-0061",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-09-25 08:05:00",
+      "lead_min": 0.0,
+      "initiation_rate": 1.0,
+      "confidence": 0.622,
+      "explanation": "fired first; opens 100% of the 1 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 1,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2023-11-16 20:26:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.31,
+      "confidence": 0.585,
+      "explanation": "fired first; opens 31% of the 174 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 2,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "level": "SETPOINT",
+      "priority": "HIGH",
+      "first_ts": "2023-11-16 20:26:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.272,
+      "confidence": 0.563,
+      "explanation": "fired first; opens 27% of the 147 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 3,
+      "tag": "1-FGL-G03-03-A.25-AC-ACON-ZOCD-0033",
+      "level": "TEMP_LOW",
+      "priority": "HIGH",
+      "first_ts": "2023-11-16 21:13:00",
+      "lead_min": 47.0,
+      "initiation_rate": 0.667,
+      "confidence": 0.489,
+      "explanation": "fired 47 min into the incident; opens 67% of the 3 incidents it appears in",
+      "hint": "Over-cooling / heating loss \u2014 check valve and controller output"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 4,
+      "tag": "1-I01-I02-02-IC0.04-AC-ACON-ZOCD-0002",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-11-16 21:21:00",
+      "lead_min": 55.0,
+      "initiation_rate": 0.212,
+      "confidence": 0.35,
+      "explanation": "fired 55 min into the incident; opens 21% of the 52 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 5,
+      "tag": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2023-11-16 21:38:00",
+      "lead_min": 72.0,
+      "initiation_rate": 0.182,
+      "confidence": 0.276,
+      "explanation": "fired 72 min into the incident; opens 18% of the 203 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-01593",
+      "rank": 6,
+      "tag": "1-FGL-G03-03-A.28-AC-ACON-FCU-0032",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2023-11-16 21:53:00",
+      "lead_min": 87.0,
+      "initiation_rate": 0.242,
+      "confidence": 0.262,
+      "explanation": "fired 87 min into the incident; opens 24% of the 124 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 1,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-11 18:46:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.282,
+      "confidence": 0.568,
+      "explanation": "fired first; opens 28% of the 110 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 2,
+      "tag": "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-05-11 19:03:00",
+      "lead_min": 17.0,
+      "initiation_rate": 0.262,
+      "confidence": 0.484,
+      "explanation": "fired 17 min into the incident; opens 26% of the 160 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 3,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-11 19:09:00",
+      "lead_min": 23.0,
+      "initiation_rate": 0.269,
+      "confidence": 0.462,
+      "explanation": "fired 23 min into the incident; opens 27% of the 104 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 4,
+      "tag": "1-I01-I02-01-IM0.04-AC-ACON-ZOCD-0002",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-05-11 18:49:00",
+      "lead_min": 3.0,
+      "initiation_rate": 0.106,
+      "confidence": 0.459,
+      "explanation": "fired 3 min into the incident; opens 11% of the 47 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 5,
+      "tag": "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0003",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-05-11 18:50:00",
+      "lead_min": 4.0,
+      "initiation_rate": 0.106,
+      "confidence": 0.449,
+      "explanation": "fired 4 min into the incident; opens 11% of the 160 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02475",
+      "rank": 6,
+      "tag": "0-T2-T07-B2-51.05-EL-VIIN-VIES-0014",
+      "level": "OFFLINE",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-11 19:25:00",
+      "lead_min": 39.0,
+      "initiation_rate": 0.342,
+      "confidence": 0.434,
+      "explanation": "fired 39 min into the incident; opens 34% of the 79 incidents it appears in",
+      "hint": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 1,
+      "tag": "1-W-W04-00-07-AC-ACON-FCU-0061",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-20 16:12:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.217,
+      "confidence": 0.531,
+      "explanation": "fired first; opens 22% of the 92 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 2,
+      "tag": "0-I01-I02-BM-IM0.02-AC-ACON-ZOCD-0001",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-20 16:20:00",
+      "lead_min": 8.0,
+      "initiation_rate": 0.233,
+      "confidence": 0.491,
+      "explanation": "fired 8 min into the incident; opens 23% of the 43 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 3,
+      "tag": "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0002",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-05-20 16:19:00",
+      "lead_min": 7.0,
+      "initiation_rate": 0.179,
+      "confidence": 0.466,
+      "explanation": "fired 7 min into the incident; opens 18% of the 123 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 4,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-20 16:30:00",
+      "lead_min": 18.0,
+      "initiation_rate": 0.282,
+      "confidence": 0.457,
+      "explanation": "fired 18 min into the incident; opens 28% of the 110 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 5,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-20 16:30:00",
+      "lead_min": 18.0,
+      "initiation_rate": 0.269,
+      "confidence": 0.45,
+      "explanation": "fired 18 min into the incident; opens 27% of the 104 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02522",
+      "rank": 6,
+      "tag": "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-05-20 16:30:00",
+      "lead_min": 18.0,
+      "initiation_rate": 0.262,
+      "confidence": 0.446,
+      "explanation": "fired 18 min into the incident; opens 26% of the 160 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 1,
+      "tag": "1-W-W04-00-07-AC-ACON-FCU-0061",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 02:47:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.217,
+      "confidence": 0.531,
+      "explanation": "fired first; opens 22% of the 92 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 2,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 03:02:00",
+      "lead_min": 15.0,
+      "initiation_rate": 0.31,
+      "confidence": 0.497,
+      "explanation": "fired 15 min into the incident; opens 31% of the 174 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 3,
+      "tag": "0-I01-I01-B1-3.02-AC-ACON-FCU-0033",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 03:10:00",
+      "lead_min": 23.0,
+      "initiation_rate": 0.412,
+      "confidence": 0.489,
+      "explanation": "fired 23 min into the incident; opens 41% of the 17 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 4,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 03:01:00",
+      "lead_min": 14.0,
+      "initiation_rate": 0.272,
+      "confidence": 0.48,
+      "explanation": "fired 14 min into the incident; opens 27% of the 147 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 5,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 03:02:00",
+      "lead_min": 15.0,
+      "initiation_rate": 0.282,
+      "confidence": 0.48,
+      "explanation": "fired 15 min into the incident; opens 28% of the 110 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02573",
+      "rank": 6,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-05-29 03:01:00",
+      "lead_min": 14.0,
+      "initiation_rate": 0.269,
+      "confidence": 0.478,
+      "explanation": "fired 14 min into the incident; opens 27% of the 104 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 1,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-10 02:45:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.31,
+      "confidence": 0.585,
+      "explanation": "fired first; opens 31% of the 174 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 2,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-10 02:51:00",
+      "lead_min": 6.0,
+      "initiation_rate": 0.269,
+      "confidence": 0.472,
+      "explanation": "fired 6 min into the incident; opens 27% of the 104 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 3,
+      "tag": "0-NU-N02-BM-0001-CP-RCS-POF-0004",
+      "level": "COMMS_FAULT",
+      "priority": "LOW",
+      "first_ts": "2024-06-10 03:00:00",
+      "lead_min": 15.0,
+      "initiation_rate": 0.333,
+      "confidence": 0.359,
+      "explanation": "fired 15 min into the incident; opens 33% of the 9 incidents it appears in",
+      "hint": "Field-bus / device communication error"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 4,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-10 03:01:00",
+      "lead_min": 16.0,
+      "initiation_rate": 0.272,
+      "confidence": 0.326,
+      "explanation": "fired 16 min into the incident; opens 27% of the 147 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 5,
+      "tag": "1-R-R02-01-05.10-EL-SMHS-FCVA-0027",
+      "level": "SETPOINT",
+      "priority": "HIGH",
+      "first_ts": "2024-06-10 02:58:00",
+      "lead_min": 13.0,
+      "initiation_rate": 0.19,
+      "confidence": 0.324,
+      "explanation": "fired 13 min into the incident; opens 19% of the 84 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02644",
+      "rank": 6,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-10 03:02:00",
+      "lead_min": 17.0,
+      "initiation_rate": 0.282,
+      "confidence": 0.316,
+      "explanation": "fired 17 min into the incident; opens 28% of the 110 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 1,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-13 03:01:00",
+      "lead_min": 0.0,
+      "initiation_rate": 0.269,
+      "confidence": 0.561,
+      "explanation": "fired first; opens 27% of the 104 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 2,
+      "tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-13 03:02:00",
+      "lead_min": 1.0,
+      "initiation_rate": 0.282,
+      "confidence": 0.557,
+      "explanation": "fired 1 min into the incident; opens 28% of the 110 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 3,
+      "tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+      "level": "SETPOINT",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-13 03:06:00",
+      "lead_min": 5.0,
+      "initiation_rate": 0.31,
+      "confidence": 0.531,
+      "explanation": "fired 5 min into the incident; opens 31% of the 174 incidents it appears in",
+      "hint": "Setpoint deviation \u2014 schedule, occupancy or operator override"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 4,
+      "tag": "1-FGL-G03-03-A.30-AC-ACON-ZOCD-0042",
+      "level": "TEMP_LOW",
+      "priority": "HIGH",
+      "first_ts": "2024-06-13 03:04:00",
+      "lead_min": 3.0,
+      "initiation_rate": 0.167,
+      "confidence": 0.489,
+      "explanation": "fired 3 min into the incident; opens 17% of the 6 incidents it appears in",
+      "hint": "Over-cooling / heating loss \u2014 check valve and controller output"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 5,
+      "tag": "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0002",
+      "level": "TEMP_HIGH",
+      "priority": "HIGH",
+      "first_ts": "2024-06-13 03:04:00",
+      "lead_min": 3.0,
+      "initiation_rate": 0.179,
+      "confidence": 0.476,
+      "explanation": "fired 3 min into the incident; opens 18% of the 123 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    },
+    {
+      "incident_id": "INC-02670",
+      "rank": 6,
+      "tag": "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+      "level": "TEMP_HIGH",
+      "priority": "MEDIUM",
+      "first_ts": "2024-06-13 03:05:00",
+      "lead_min": 4.0,
+      "initiation_rate": 0.182,
+      "confidence": 0.467,
+      "explanation": "fired 4 min into the incident; opens 18% of the 203 incidents it appears in",
+      "hint": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+    }
+  ],
+  "cause_hints": {
+    "UNKNOWN-ASSET": "Uncategorised device alarm \u2014 review point configuration",
+    "1-JK1-JK1-01-E.02-AC-ACON-VAVU-0049": "VAV cannot hold space setpoint \u2014 check damper, reheat and airflow",
+    "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0023": "VAV cannot hold space setpoint \u2014 check damper, reheat and airflow",
+    "1-JK1-JK1-00-E.03-AC-ACON-VAVU-0024": "VAV cannot hold space setpoint \u2014 check damper, reheat and airflow",
+    "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0004": "AHU/MAU discharge temperature off target \u2014 coil, valve or sensor",
+    "1-JK1-JK1-00-D.04-AC-ACON-VAVU-0012": "VAV cannot hold space setpoint \u2014 check damper, reheat and airflow",
+    "0-JK1-JK1-B1-4.03-AC-ACON-MAHU-0002": "AHU/MAU discharge temperature off target \u2014 coil, valve or sensor",
+    "1-JK1-JK1-00-C.27-AC-ACON-VAVU-0019": "VAV cannot hold space setpoint \u2014 check damper, reheat and airflow",
+    "0-JK1-JK1-B2-2.04-AC-ACON-AHU-0009": "AHU/MAU discharge temperature off target \u2014 coil, valve or sensor",
+    "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003": "AHU/MAU discharge temperature off target \u2014 coil, valve or sensor",
+    "0-ST-M-N1-17-AC-ACON-CRAC-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R06-00-51.08-BM-THS-FTHS-0039": "Field-bus / device communication error",
+    "T06-SM-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "0-R-R02-B3-51.01-EL-VIIN-VIES-0001": "Uncategorised device alarm \u2014 review point configuration",
+    "0-ST-M-N1-17-AC-ACON-CRAC-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-ST-M-00-DC1.01-AC-SBCW-BECH-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "AAA-BMS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "G02-SM-SSIF": "Field-bus / device communication error",
+    "0-R-R06-B2-51.01-EL-VIIN-VIES-0003": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-T2-T07-06-05.04-SG-GMCS-GAMA-0036": "Gas detection \u2014 safety response required",
+    "1-R-R01-06-02.05-SG-GMCS-GAMA-0029": "Gas detection \u2014 safety response required",
+    "1-R-R01-02-03.03-SG-GMCS-GAMA-0013": "Gas detection \u2014 safety response required",
+    "1-R-R01-06-01.08-SG-GMCS-GAMA-0028": "Gas detection \u2014 safety response required",
+    "1-R-R02-00-51.01-EL-VIIN-VIES-0007": "Uncategorised device alarm \u2014 review point configuration",
+    "1-R-R01-03-02.04-SG-GMCS-GAMA-0021": "Gas detection \u2014 safety response required",
+    "T01-BMS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-S-S06-01-08.05-SG-GMCS-GAMA-0005": "Gas detection \u2014 safety response required",
+    "0-S-S01-B1-51.01-EL-VIIN-VIES-0001": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-S-S01-00-51.05-EL-VIIN-VIES-0003": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-R-R01-01-06.04-SG-GMCS-SAGD-0007": "Gas detection \u2014 safety response required",
+    "1-R-R01-04-01.03-SG-GMCS-SAGD-0029": "Gas detection \u2014 safety response required",
+    "0-ST-M-N1-17-AC-ACON-CRAC-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-HHH-H03-01-A.05-FA-FDAD-SD-0008": "Fire-system supervisory / trouble condition",
+    "0-T2-T07-B2-51.05-EL-VIIN-VIES-0014": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-R-R01-00-01.01-SG-GMCS-GAMA-0003": "Gas detection \u2014 safety response required",
+    "H05-FAS-SSIF": "Fire-system supervisory / trouble condition",
+    "0-S-S01-B1-51.01-EL-VIIN-VIES-0002": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-HHH-H03-04-C.01-FA-FDAD-MM-0007": "Fire-system supervisory / trouble condition",
+    "1-NU-U07-04-00.01-AC-EMS-CWSM-0016": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "R01-FAS-SSIF": "Fire-system supervisory / trouble condition",
+    "0-S-S06-B1-74.16-SG-GMCS-GAMA-0006": "Gas detection \u2014 safety response required",
+    "T05-GBS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-HHH-H03-00-EL.01-FA-FDAD-SD-0005": "Fire-system supervisory / trouble condition",
+    "1-R-R01-03-06.04-SG-GMCS-SAGD-0019": "Gas detection \u2014 safety response required",
+    "AAA-SM-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-S-S06-01-09.05-SG-GMCS-SAGD-0005": "Gas detection \u2014 safety response required",
+    "1-HHH-H03-03-B.08-FA-FDAD-SD-0015": "Fire-system supervisory / trouble condition",
+    "1-R-R01-01-04.03-SG-GMCS-GAMA-0006": "Gas detection \u2014 safety response required",
+    "1-R-R01-03-02.04-SG-GMCS-SAGD-0024": "Gas detection \u2014 safety response required",
+    "1-R-R01-03-04.03-SG-GMCS-GAMA-0018": "Gas detection \u2014 safety response required",
+    "1-HHH-H03-00-ST.01-FA-FDAD-MM-0009": "Fire-system supervisory / trouble condition",
+    "1-R-R01-02-02.04-SG-GMCS-SAGD-0018": "Gas detection \u2014 safety response required",
+    "1-NU-U07-06-00.01-AC-EMS-CWSM-0036": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-NU-U07-03-00.01-AC-EMS-CWSM-0008": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-NU-U07-10-00.01-AC-EMS-CWSM-0075": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "T08-SM-SSIF": "Gas detection \u2014 safety response required",
+    "S06-GBS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-S-S06-00-12.01-SG-GMCS-GAMA-0002": "Gas detection \u2014 safety response required",
+    "R08-FAS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-R-R06-B1-65.14-BM-GAPA-GGAP-0002": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "DS-0-R-R08-B1-64.09-AC-ACON-CCUN-0001": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "T03-SM-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "0-S-S08-B1-75.11-BM-EMS-MFMG-0001": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "0-AAA-AAA-B2-5.02-AC-ACON-FCU-0055": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-03-01.11-EL-SMHS-FCVA-0058": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-03-05.10-EL-SMHS-FCVA-0082": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-02-01.03-EL-SMHS-FCVA-0032": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-02-03.13-EL-SMHS-FCVA-0043": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-05-02.15-EL-SMHS-FCVA-0117": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-03-01.06-EL-SMHS-FCVA-0057": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-I01-I02-BM-IM0.02-AC-ACON-ZOCD-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-03-06.11-EL-SMHS-FCVA-0084": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-04-01.11-EL-SMHS-FCVA-0089": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-00-IC0.05-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B1-02-AC-ACON-FCU-0033": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-01-02.15-EL-SMHS-FCVA-0007": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-03-01.03-EL-SMHS-FCVA-0056": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-03-05.04-EL-SMHS-FCVA-0079": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-05.10-EL-SMHS-FCVA-0027": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-06-03.07-EL-SMHS-FCVA-0126": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-06.08-EL-SMHS-FCVA-0109": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-02.07-EL-SMHS-FCVA-0091": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "R02-GBS-SSIF": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "1-I01-I02-04-IA0.02-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-05-02.14-EL-SMHS-FCVA-0118": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-02.15-EL-SMHS-FCVA-0093": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-03-IA2.06-AC-ACON-FCU-0006": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-5.02-AC-ACON-FCU-0053": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-03-IC0.01-AC-ACON-ZOCD-0002": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-03-05.02-EL-SMHS-FCVA-0078": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-05-03.16-EL-SMHS-FCVA-0121": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-04-IA0.02-AC-ACON-ZOCD-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-05.02-EL-SMHS-FCVA-0023": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-05.12-EL-SMHS-FCVA-0026": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-ST.03-AC-ACON-FCU-0069": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-01-06.04-EL-SMHS-FCVA-0031": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-2.05-AC-ACON-FCU-0081": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-01-IC0.05-AC-ACON-ZOCD-0003": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-05-02.07-EL-SMHS-FCVA-0115": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-T2-T07-05-05.01-PL-EMS-NPWM-0041": "Leak detection \u2014 isolate and inspect",
+    "0-AAA-AAA-B2-4.01-AC-ACON-FCU-0048": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-02-02.07-EL-SMHS-FCVA-0036": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-02-01.06-EL-SMHS-FCVA-0033": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-05-02.02-EL-SMHS-FCVA-0116": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-05.04-EL-SMHS-FCVA-0025": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-03.16-EL-SMHS-FCVA-0097": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-05-03.03-EL-SMHS-FCVA-0124": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-06-03.05-EL-SMHS-FCVA-0128": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-02-06.04-EL-SMHS-FCVA-0055": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-02-03.16-EL-SMHS-FCVA-0042": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-04-03.16-EL-SMHS-FCVA-0096": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-02.14-EL-SMHS-FCVA-0094": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-02.07-EL-SMHS-FCVA-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-01-03.16-EL-SMHS-FCVA-0010": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-2.02-AC-ACON-FCU-0005": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-04-02.02-EL-SMHS-FCVA-0092": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-5.03-AC-ACON-FCU-0092": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-03-05.04-EL-SMHS-FCVA-0080": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-01-02.02-EL-SMHS-FCVA-0006": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-02-AC-ACON-FCU-0101": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-T2-T07-B2-95.07-AC-ACON-FCU-0399": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R06-01-03.03-EL-SMHS-FCVA-0011": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-01-IM0.04-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-4.09-AC-ACON-FCU-0090": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-2.04-AC-ACON-FCU-0045": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-02-AC-ACON-FCU-0034": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-2.03-AC-ACON-FCU-0006": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-IA0.09-AC-ACON-ZOCD-0012": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B1-3.03-AC-ACON-FCU-0014": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-HHH-H03-02-B.09-FA-FDAD-SD-0001": "Fire-system supervisory / trouble condition",
+    "1-R-R02-01-05.04-EL-SMHS-FCVA-0024": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-03-IA1.02-AC-ACON-ZOCD-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-01-IC0.04-AC-ACON-ZOCD-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-03-IA0.06-AC-ACON-FCU-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-B.03-AC-ACON-FCU-0002": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-4.01-AC-ACON-FCU-0015": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-02-AC-ACON-FCU-0102": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-03-IA0.02-AC-ACON-ZOCD-0002": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-2.01-AC-ACON-FCU-0004": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-4.07-AC-ACON-FCU-0088": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B1-5.04-AC-ACON-FCU-0027": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-5.03-AC-ACON-FCU-0093": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-S-S06-B1-75.17-AC-ACON-FCU-0030": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-4.04-AC-ACON-FCU-0052": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-IC0.06-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IA0.09-AC-ACON-ZOCD-0005": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-IC0.06-AC-ACON-ZOCD-0005": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-R-R08-B1-65.12-AC-ACON-FCU-0148": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-R-R06-B1-65.19-AC-ACON-FCU-0167": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-W-W04-00-07-AC-ACON-FCU-0061": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-02-IC0.08-AC-ACON-ZOCD-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-S-S06-B2-75.13-AC-ACON-FCU-0050": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-FGL-FGL-B1-5.02-AC-ACON-FCU-0021": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-I01-I02-BM-IA1.04-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-FGL-FGL-B1-1.03-AC-ACON-FCU-0056": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "1-I01-I02-02-IC0.08-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-6.06-AC-ACON-FCU-0098": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "1-I01-I02-01-IA1.02-AC-ACON-ZOCD-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-FGL-FGL-B3-2.01-AC-ACON-FCU-0156": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "1-I01-I02-00-IA0.09-AC-ACON-ZOCD-0011": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-JK1-JK1-B2-2.10-AC-ACON-FCU-0050": "Uncategorised device alarm \u2014 review point configuration",
+    "1-Z-Z07-01-01-AC-ACON-FCU-0035": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-S-S06-B2-75.13-AC-ACON-FCU-0039": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-ST.05-AC-ACON-FCU-0070": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-03-A.25-AC-ACON-ZOCD-0033": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-I01-I02-02-IM0.09-AC-ACON-ZOCD-0004": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-03-A.28-AC-ACON-FCU-0033": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-S-S08-B1-75.11-AC-ACON-FCU-0160": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-FGL-G03-01-A.34-AC-ACON-ZOCD-0011": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "0-R-R08-B1-65.08-PL-PMP-CWAP-0001": "Point left in manual / override \u2014 alarm suppressed at source",
+    "1-FGL-G03-03-A.10-AC-ACON-FCU-0027": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-03-A.19-AC-ACON-FCU-0029": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B1-3.02-AC-ACON-FCU-0013": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-01-IA1.02-AC-ACON-ZOCD-0002": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-FGL-G03-03-A.28-AC-ACON-FCU-0032": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IC0.04-AC-ACON-ZOCD-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-1.01-AC-ACON-FCU-0038": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-1.06-AC-ACON-FCU-0077": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-03-A.19-AC-ACON-FCU-0028": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-01-A.25-AC-ACON-ZOCD-0012": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "0-QQQ-QQQ-B1-03.11-AC-ACON-FCU-0013": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0001": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "0-FGL-FGL-B1-2.02-AC-ACON-FCU-0036": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "0-AAA-AAA-B2-5.05-AC-ACON-FCU-0063": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B2-2.05-AC-ACON-FCU-0046": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-2.05-AC-ACON-FCU-0080": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-01-IA1.01-AC-ACON-ZOCD-0001": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-01-A.07-AC-ACON-ZOCD-0001": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "0-AAA-AAA-B3-5.12-AC-ACON-FCU-0095": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-01-A.25-AC-ACON-ZOCD-0013": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IA1.06-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-01-IA1.02-AC-ACON-ZOCD-0003": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-01-IC0.04-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IC0.04-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-01-AC-ACON-FCU-0100": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-I01-I02-BM-ST.03-AC-ACON-FCU-0003": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B3-4.01-AC-ACON-FCU-0082": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-02-A.12-AC-ACON-ZOCD-0016": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-X-X03-00-11-AC-ACON-FCU-0336": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-02-IA0.02-AC-ACON-ZOCD-0002": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-HHH-H03-03-B.15-FA-FDAD-SD-0017": "Fire-system supervisory / trouble condition",
+    "0-AAA-AAA-B2-5.03-AC-ACON-FCU-0061": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-NU-N02-BM-0001-CP-RCS-POF-0004": "Field-bus / device communication error",
+    "0-T2-T07-B1-95.03-AC-ACON-FCU-0458": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-1.01-AC-ACON-FCU-0002": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "1-NU-N03-00-0006-CP-RCS-POF-0001": "Field-bus / device communication error",
+    "0-T2-T07-B1-95.03-AC-ACON-FCU-0375": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-Y-Y1Y2-00-07-FA-FDAD-FWST-0001": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "0-T1-T01-B2-85.17-AC-ACON-FCU-0178": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-R-R02-00-55.01-CP-RCS-POF-0004": "Access-control event",
+    "0-S-S01-B1-75.21-AC-ACON-FCU-0208": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-HHH-H03-01-D.03-FA-FDAD-SD-0017": "Uncategorised device alarm \u2014 review point configuration",
+    "1-FGL-G03-02-A.25-AC-ACON-ZOCD-0019": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-I01-I02-00-IA1.02-AC-ACON-ZOCD-0003": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-FGL-FGL-B1-1.01-AC-ACON-FCU-0050": "Fan command/status mismatch \u2014 starter, VFD or airflow proving",
+    "1-I01-I02-03-IC0.01-AC-ACON-FCU-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R02-00-55.01-CP-RCS-POF-0005": "Access-control event",
+    "1-AAA-A01-00-C.17-CP-RCS-POF-0001": "Access-control event",
+    "1-HHH-H09-00-A.23-CP-RCS-POF-0002": "Access-control event",
+    "1-R-R01-04-03.03-SG-GMCS-GAMA-0025": "Gas detection \u2014 safety response required",
+    "1-FGL-G03-02-A.26-AC-ACON-ZOCD-0028": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-FGL-G03-02-A.06-AC-ACON-ZOCD-0023": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "0-FGL-FGL-B3-5.02-AC-ACON-FCU-0166": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-5.05-AC-ACON-FCU-0062": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-FGL-G03-02-A.34-AC-ACON-ZOCD-0025": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-T2-T07-00-51.05-EL-VIIN-VIES-0018": "Controller or network segment lost \u2014 check gateway, power and BACnet trunk",
+    "0-AAA-AAA-B3-2.02-AC-ACON-FCU-0078": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B1-1.03-AC-ACON-FCU-0003": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B1-2.05-AC-ACON-FCU-0011": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-05-AC-ACON-FCU-0104": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-HHH-H03-00-B.16-FA-FDAD-MM-0012": "Fire-system supervisory / trouble condition",
+    "0-AAA-AAA-B2-4.03-AC-ACON-FCU-0049": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-6.07-AC-ACON-FCU-0099": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-Z-Z2Z4-09-43-AC-ACON-FCU-0036": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-I02-I02-B2-6.09-AC-ACON-FCU-0017": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-HHH-H03-04-C.01-FA-FDAD-MM-0003": "Fire-system supervisory / trouble condition",
+    "1-HHH-H03-03-B.14-FA-FDAD-SD-0001": "Fire-system supervisory / trouble condition",
+    "0-I01-I02-BM-ST.11-AC-ACON-FCU-0004": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-I01-I02-00-B.02-AC-ACON-FCU-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-I01-I01-B1-3.02-AC-ACON-FCU-0033": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-4.01-AC-ACON-FCU-0047": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-1.02-AC-ACON-FCU-0074": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-R-R01-B1-65.03-AC-ACON-FCU-0167": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "1-R-R01-00-01.01-SG-GMCS-SAGD-0006": "Gas detection \u2014 safety response required",
+    "1-FGL-G03-03-A.30-AC-ACON-ZOCD-0042": "Over-cooling / heating loss \u2014 check valve and controller output",
+    "1-R-R01-02-03.03-SG-GMCS-SAGD-0016": "Gas detection \u2014 safety response required",
+    "0-AAA-AAA-B1-4.10-AC-ACON-FCU-0035": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-S-S06-01-09.05-SG-GMCS-GAMA-0004": "Gas detection \u2014 safety response required",
+    "0-AAA-AAA-B2-5.03-AC-ACON-FCU-0060": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-Z-Z2Z4-12-43-AC-ACON-FCU-0153": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-4.06-AC-ACON-FCU-0087": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B3-2.03-AC-ACON-FCU-0079": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-AAA-AAA-B2-2.01-AC-ACON-FCU-0042": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "0-I01-I02-BM-IC0.01-AC-ACON-FCU-0001": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-AAA-AAA-B2-5.02-AC-ACON-FCU-0054": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-Y-Y3Y4-02-11-AC-ACON-FCU-0037": "Setpoint deviation \u2014 schedule, occupancy or operator override",
+    "0-W-W-BM-04-AC-ACON-FCU-0031": "Cooling shortfall \u2014 check chilled-water supply, valve and coil",
+    "1-I01-I02-02-IA0.10-AC-ACON-ZOCD-0007": "Cooling shortfall \u2014 check chilled-water supply, valve and coil"
+  },
+  "recommendations": [
+    {
+      "incident_id": "INC-01268",
+      "signature": {
+        "root_tag": "0-T2-T07-B2-95.07-AC-ACON-FCU-0399",
+        "alarm_types": [
+          "SETPOINT"
+        ],
+        "zone": "HHH-03"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-T2-T07-B2-95.07-AC-ACON-FCU-0399 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired 1 min into the incident; opens 62% of the 8 incidents it appears in",
+          "tags": [
+            "0-T2-T07-B2-95.07-AC-ACON-FCU-0399"
+          ],
+          "source": "root-cause + playbook"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-00027",
+      "signature": {
+        "root_tag": "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003",
+        "alarm_types": [
+          "AIR_TEMP",
+          "TEMP_HIGH"
+        ],
+        "zone": "ST-N1"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003 first \u2014 Inspect the AHU/MAU coil, valve and discharge sensor against setpoint.",
+          "why": "fired first; opens 50% of the 4 incidents it appears in",
+          "tags": [
+            "0-JK1-JK1-B2-1.01-AC-ACON-MAHU-0003"
+          ],
+          "source": "root-cause + playbook"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-02475",
+      "signature": {
+        "root_tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+        "alarm_types": [
+          "OFFLINE",
+          "SETPOINT",
+          "TEMP_HIGH"
+        ],
+        "zone": "I01-BM"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-T2-T07-B1-95.03-AC-ACON-FCU-0458 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired first; opens 28% of the 110 incidents it appears in",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0458"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on 0-T2-T07-B1-95.03-AC-ACON-FCU-0458 before chasing a process cause.",
+          "why": "0-T2-T07-B1-95.03-AC-ACON-FCU-0458 chatters (18.4% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0458"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 0-T2-T07-B1-95.03-AC-ACON-FCU-0375, 0-S-S06-B2-75.13-AC-ACON-FCU-0039 in the same sweep \u2014 they alarm together with 0-T2-T07-B1-95.03-AC-ACON-FCU-0458.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+            "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-02522",
+      "signature": {
+        "root_tag": "1-W-W04-00-07-AC-ACON-FCU-0061",
+        "alarm_types": [
+          "SETPOINT",
+          "TEMP_HIGH"
+        ],
+        "zone": "I01-00"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 1-W-W04-00-07-AC-ACON-FCU-0061 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired first; opens 22% of the 92 incidents it appears in",
+          "tags": [
+            "1-W-W04-00-07-AC-ACON-FCU-0061"
+          ],
+          "source": "root-cause + playbook"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-01593",
+      "signature": {
+        "root_tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+        "alarm_types": [
+          "SETPOINT",
+          "TEMP_HIGH",
+          "TEMP_LOW"
+        ],
+        "zone": "S-B2"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-S-S06-B2-75.13-AC-ACON-FCU-0050 first \u2014 Trace the chilled-water loop: supply temperature, valve command vs. position, coil \u0394T.",
+          "why": "fired first; opens 31% of the 174 incidents it appears in",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0050"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on 0-S-S06-B2-75.13-AC-ACON-FCU-0050 before chasing a process cause.",
+          "why": "0-S-S06-B2-75.13-AC-ACON-FCU-0050 chatters (15.9% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0050"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 0-S-S06-B2-75.13-AC-ACON-FCU-0039, 0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024 in the same sweep \u2014 they alarm together with 0-S-S06-B2-75.13-AC-ACON-FCU-0050.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+            "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0458"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-00424",
+      "signature": {
+        "root_tag": "AAA-BMS-SSIF",
+        "alarm_types": [
+          "FIRE_SUPERVISORY",
+          "OFFLINE"
+        ],
+        "zone": "HHH-04"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect AAA-BMS-SSIF first \u2014 Confirm the controller/gateway has power and its BACnet trunk is up; ping the device before assuming a field fault.",
+          "why": "fired first; opens 81% of the 638 incidents it appears in",
+          "tags": [
+            "AAA-BMS-SSIF"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on AAA-BMS-SSIF before chasing a process cause.",
+          "why": "AAA-BMS-SSIF chatters (0.2% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "AAA-BMS-SSIF"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 1-HHH-H03-04-C.01-FA-FDAD-MM-0003, 1-HHH-H03-04-C.01-FA-FDAD-MM-0007 in the same sweep \u2014 they alarm together with AAA-BMS-SSIF.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "1-HHH-H03-04-C.01-FA-FDAD-MM-0003",
+            "1-HHH-H03-04-C.01-FA-FDAD-MM-0007",
+            "0-JK1-JK1-B2-2.04-AC-ACON-AHU-0009"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-00026",
+      "signature": {
+        "root_tag": "0-ST-M-N1-17-AC-ACON-CRAC-0004",
+        "alarm_types": [
+          "TEMP_HIGH"
+        ],
+        "zone": "ST-N1"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-ST-M-N1-17-AC-ACON-CRAC-0004 first \u2014 Trace the chilled-water loop: supply temperature, valve command vs. position, coil \u0394T.",
+          "why": "fired first; opens 13% of the 15 incidents it appears in",
+          "tags": [
+            "0-ST-M-N1-17-AC-ACON-CRAC-0004"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on 0-ST-M-N1-17-AC-ACON-CRAC-0004 before chasing a process cause.",
+          "why": "0-ST-M-N1-17-AC-ACON-CRAC-0004 chatters (10.0% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "0-ST-M-N1-17-AC-ACON-CRAC-0004"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 0-ST-M-N1-17-AC-ACON-CRAC-0002, 0-ST-M-N1-17-AC-ACON-CRAC-0003 in the same sweep \u2014 they alarm together with 0-ST-M-N1-17-AC-ACON-CRAC-0004.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "0-ST-M-N1-17-AC-ACON-CRAC-0002",
+            "0-ST-M-N1-17-AC-ACON-CRAC-0003"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-02670",
+      "signature": {
+        "root_tag": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375",
+        "alarm_types": [
+          "SETPOINT",
+          "TEMP_HIGH",
+          "TEMP_LOW"
+        ],
+        "zone": "I01-00"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-T2-T07-B1-95.03-AC-ACON-FCU-0375 first \u2014 Trace the chilled-water loop: supply temperature, valve command vs. position, coil \u0394T.",
+          "why": "fired first; opens 27% of the 104 incidents it appears in",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0375"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on 0-T2-T07-B1-95.03-AC-ACON-FCU-0375 before chasing a process cause.",
+          "why": "0-T2-T07-B1-95.03-AC-ACON-FCU-0375 chatters (23.7% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0375"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 0-T2-T07-B1-95.03-AC-ACON-FCU-0458, 1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005 in the same sweep \u2014 they alarm together with 0-T2-T07-B1-95.03-AC-ACON-FCU-0375.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0458",
+            "1-I01-I02-00-IA1.04-AC-ACON-ZOCD-0005",
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0039"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-00486",
+      "signature": {
+        "root_tag": "AAA-BMS-SSIF",
+        "alarm_types": [
+          "COMMS_FAULT",
+          "OFFLINE"
+        ],
+        "zone": "AAA"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect AAA-BMS-SSIF first \u2014 Confirm the controller/gateway has power and its BACnet trunk is up; ping the device before assuming a field fault.",
+          "why": "fired first; opens 81% of the 638 incidents it appears in",
+          "tags": [
+            "AAA-BMS-SSIF"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on AAA-BMS-SSIF before chasing a process cause.",
+          "why": "AAA-BMS-SSIF chatters (0.2% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "AAA-BMS-SSIF"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 1-HHH-H03-04-C.01-FA-FDAD-MM-0003, 1-HHH-H03-04-C.01-FA-FDAD-MM-0007 in the same sweep \u2014 they alarm together with AAA-BMS-SSIF.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "1-HHH-H03-04-C.01-FA-FDAD-MM-0003",
+            "1-HHH-H03-04-C.01-FA-FDAD-MM-0007",
+            "0-JK1-JK1-B2-2.04-AC-ACON-AHU-0009"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-02573",
+      "signature": {
+        "root_tag": "1-W-W04-00-07-AC-ACON-FCU-0061",
+        "alarm_types": [
+          "SETPOINT",
+          "TEMP_HIGH"
+        ],
+        "zone": "I01-02"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 1-W-W04-00-07-AC-ACON-FCU-0061 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired first; opens 22% of the 92 incidents it appears in",
+          "tags": [
+            "1-W-W04-00-07-AC-ACON-FCU-0061"
+          ],
+          "source": "root-cause + playbook"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-01270",
+      "signature": {
+        "root_tag": "1-R-R06-01-03.03-EL-SMHS-FCVA-0011",
+        "alarm_types": [
+          "SETPOINT",
+          "TEMP_HIGH"
+        ],
+        "zone": "R-05"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 1-R-R06-01-03.03-EL-SMHS-FCVA-0011 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired first; opens 100% of the 2 incidents it appears in",
+          "tags": [
+            "1-R-R06-01-03.03-EL-SMHS-FCVA-0011"
+          ],
+          "source": "root-cause + playbook"
+        }
+      ]
+    },
+    {
+      "incident_id": "INC-02644",
+      "signature": {
+        "root_tag": "0-S-S06-B2-75.13-AC-ACON-FCU-0050",
+        "alarm_types": [
+          "COMMS_FAULT",
+          "SETPOINT",
+          "TEMP_HIGH"
+        ],
+        "zone": "I01-00"
+      },
+      "known_case": false,
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Inspect 0-S-S06-B2-75.13-AC-ACON-FCU-0050 first \u2014 Check for an active schedule change, occupancy override, or a setpoint left in manual.",
+          "why": "fired first; opens 31% of the 174 incidents it appears in",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0050"
+          ],
+          "source": "root-cause + playbook"
+        },
+        {
+          "priority": 2,
+          "action": "Widen the deadband / add on-delay on 0-S-S06-B2-75.13-AC-ACON-FCU-0050 before chasing a process cause.",
+          "why": "0-S-S06-B2-75.13-AC-ACON-FCU-0050 chatters (15.9% of its activations repeat within 60 s) \u2014 the alarm load here is an instrument-tuning problem, not a plant upset.",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0050"
+          ],
+          "source": "chattering analysis"
+        },
+        {
+          "priority": 3,
+          "action": "Check 0-S-S06-B2-75.13-AC-ACON-FCU-0039, 0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024 in the same sweep \u2014 they alarm together with 0-S-S06-B2-75.13-AC-ACON-FCU-0050.",
+          "why": "These sources co-fire with the lead candidate, so they likely share a cause or a common feed.",
+          "tags": [
+            "0-S-S06-B2-75.13-AC-ACON-FCU-0039",
+            "0-HHH-HHH-B2-5.16-AC-ACON-FCU-0024",
+            "0-T2-T07-B1-95.03-AC-ACON-FCU-0458"
+          ],
+          "source": "co-occurrence"
+        }
+      ]
+    }
+  ],
+  "kb_stats": {
+    "total": 0,
+    "distinct_signatures": 0,
+    "recurring": 0,
+    "engine_accuracy": {
+      "confirmations": 0,
+      "top1_correct": 0,
+      "accuracy": null
+    }
+  }
+}

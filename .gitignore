@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Plant data and anything derived from it — keep it out of a public repo.
+# Both are rebuilt in one command: python scripts/ingest_alarm_log.py
+data/*.csv
+data/*.zip
+*.duckdb
+ground_truth.json
